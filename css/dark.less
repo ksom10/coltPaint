@@ -1,0 +1,441 @@
+
+/* Pages */
+
+@media screen and (min-width: 0px) {
+
+    body.dark-mode {
+
+        /*-- -------------------------- -->
+        <---           Home             -->
+        <--- -------------------------- -*/
+    
+        #hero {
+            position: relative;
+            
+    
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background: #000;
+                opacity: .4;
+                top: 0;
+                left: 0;
+            }
+    
+            h1 {
+                color: #fff;
+            }
+    
+            .call-now {
+                .light {
+                    display: none;
+                }
+    
+                .dark {
+                    display: inline-block;
+                }
+                .text {
+                    color: #fff;
+                }
+    
+                .number {
+                    color: #fff;
+                }
+            }
+    
+            .button-solid {
+                background: var(--darkPrimary);
+    
+                &:before {
+                    background: var(--tint);
+                }
+            }
+        }
+    
+        #services {
+            .service {
+                background: var(--darkPrimary);
+    
+                .button-solid {
+                    &:before {
+                        background: var(--tint);
+                    }
+                }
+    
+                &:nth-of-type(2) {
+                    background: var(--shade);
+    
+                    .button-solid {
+                        &:before {
+                            background:var(--darkPrimary);
+                        }
+                    }
+                }
+            }
+        }
+
+        #info {
+            background-color: var(--tint);
+
+            h2 {
+                color: #fff;
+            }
+            .about-info {
+                h3 {
+                    color: #fff;
+                }
+                
+            }
+        }
+    
+        #about {
+            &:before {
+                background: #0a0a0a;
+            }
+            .left-section {
+                &:before {
+                    background: var(--shade);
+                    opacity: .1;
+                }
+            }
+            .right-section {
+                .topper {
+                    color: var(--shade);
+                }
+                h2 {
+                    color: #fff;
+    
+                    &:before {
+                        background: var(--shade);
+                        opacity: .1;
+                    }
+                    
+                    span {
+                        color: var(--shade);
+                    }
+                }
+    
+                .decoration {
+                    .line {
+                        background: var(--shade);
+                    }
+                }
+    
+                .button-solid {
+                    background: var(--darkPrimary);
+                }
+            }
+        }
+    
+        #how-we-know {
+            box-shadow: none;
+            .left-section {
+                background: var(--medium);
+    
+                ul {
+                    li {
+                        color: #fff;
+                        opacity: .9;
+                    }
+                }
+            }
+    
+            .right-section {
+                background: var(--darkPrimary);
+    
+                .button-solid {
+                    color: var(--darkPrimary);
+    
+                    &::before {
+                        background: var(--tint);
+                    }
+    
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    
+        #get-started {
+            .topper {
+                color: var(--shade);
+            }
+            .steps {
+    
+                .step {
+                    .image-group {
+                        background: #262626;
+                    }
+                }
+    
+                .number {
+                    border: 9/26em solid var(--dark);
+                }
+    
+                h3 {
+                    color: #fff;
+                }
+    
+                .dots {
+                    .dot {
+                        background: var(--shade);
+    
+                        &:nth-of-type(5) {
+                            background: var(--primary) !important;
+                        }
+                    }
+                }
+            }
+    
+            .button-solid {
+                background: var(--darkPrimary);
+    
+                &:before {
+                    background: var(--tint);
+                }
+            }
+        }
+
+        #cta {
+            .button-solid {
+                background: var(--darkPrimary);
+                &:before {
+                    background: var(--tint);
+                }
+            }
+
+            &:nth-of-type(2) {
+                background: var(--shade);
+
+                .button-solid {
+                    &:before {
+                        background:var(--darkPrimary);
+                    }
+                }
+            }
+        }
+    
+        #reviews {
+            .topper {
+                color: var(--shade);
+            }
+    
+            h2 {
+                color: #fff;
+            }
+    
+            .right-section {
+                .review {
+                    background: var(--tint);
+                }
+                .identity {
+                    .light {
+                        display: none;
+                    }
+    
+                    .dark {
+                        display: inline-block;
+                    }
+                    .name {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        #sidebyside-reverse {
+            background: var(--darkPrimary);
+        }
+    
+        #footer {
+            background: var(--shade);
+            .right-section {
+                h2 {
+                    color: #fff;
+                    font-size: 18/16em;
+                    line-height: 21/18;
+                    margin-bottom: 37/18em;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    position: relative;
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        display: block;
+                        height: 2/18em;
+                        width: 97/18em;
+                        background: var(--darkPrimary);
+                        opacity: 1;
+                        bottom: -16/18em;
+                        left: 0;
+                    }
+                }
+                li {
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    line-height: 21/18;
+                    transition: color .3s;
+                    &:hover {
+                        color: var(--darkPrimary);
+                        text-decoration: none;
+                    }
+                }
+            }
+            }
+            .button-solid {
+                background: var(--darkPrimary);
+    
+                &:before {
+                    background: var(--tint);
+                }
+            }
+
+            .credit {
+                a {
+                    color: var(--tint);
+                }
+            }
+        }
+    
+        /*-- -------------------------- -->
+        <---           About            -->
+        <--- -------------------------- -*/
+
+        #int-hero {
+            background: url("../images/about-dark-mobile.jpg");
+            background-size: cover;
+            background-position: center 80%;
+            background-repeat: no-repeat;
+        }
+
+        #serv-hero {
+            background: url("../images/serv-m.jpg");
+            background-size: cover;
+            background-position: center 20%;
+            background-repeat: no-repeat;
+        }
+
+        #contact-hero {
+            background: url("../images/contact-dark-m.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    
+        #about-content {
+            .content {
+                .topper {
+                    color: var(--shade);
+                }
+                h2 {
+                    color: #fff;
+    
+                    &:before {
+                        background: var(--shade);
+                        opacity: .1;
+                    }
+                    
+                    span {
+                        color: var(--shade);
+                    }
+                }
+    
+                .decoration {
+                    .line {
+                        background: var(--shade);
+                    }
+                }
+            }
+        }
+
+        #staff {
+            h2 {
+                color: #fff;
+            }
+
+            .member {
+                .title {
+                    color: #fff;
+                    opacity: .7;
+                }
+            }
+        }
+    
+        /*-- -------------------------- -->
+        <---          Contact           -->
+        <--- -------------------------- -*/
+    
+        #form {
+            .topper {
+                color: var(--shade);
+            }
+    
+            h2 {
+                color: #fff;
+            }
+    
+            label {
+                color: #fff;
+            }
+    
+            ::placeholder {
+                opacity: .3;
+            }
+    
+            .contact-right {
+                background: var(--shade);
+            }
+        }
+
+        /*-- -------------------------- -->
+        <---        Testimonials        -->
+        <--- -------------------------- -*/
+
+        #reviews {
+            .name {
+                color: #fff;
+            }
+        }
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    body.dark-mode {
+        #how-we-know {
+            background: var(--darkPrimary);
+
+
+            
+        }
+
+        #int-hero {
+            background: url("../images/about-dark.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #serv-hero {
+            background: url("../images/serv.jpg");
+            background-size: cover;
+            background-position: center 20%;
+            background-repeat: no-repeat;
+        }
+
+        #contact-hero {
+            background: url("../images/contact-dark.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+
+}

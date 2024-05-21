@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="canonical" href="">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!--Social Media Display-->
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:image:secure_url" content=""/>
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/local.css">
+    <link rel="stylesheet" href="./css/dark.css">
+    <link rel="stylesheet" href="./css/dark-root-styles.css">
+
+    <title>Title | Business | Location, WA</title>
+</head>
+<body>
+
+    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main</a>
+
+    <header>
+
+        <!-- Mobile Nav Strip -->
+        <div class="mobile-wrapper">
+            <div class="mobile-nav container mobile-nav-container">
+                <img class="light" id="mobile-logo" src="./images/logo.png" alt="mobile_company_logo" width="110" height="32">
+
+                <img class="dark" id="mobile-logo" src="./images/logo-dark.png" alt="mobile_company_logo" width="110" height="32">
+
+                <!-- Hamburger Menu -->
+                <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
+                    <span aria-hidden="true" class="hamburger-box">
+                        <span aria-hidden="true" class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!--                   NAVIGATION                 -->
+        <!-- ============================================ -->
+
+        <nav>
+            <div class="navbar-menu">
+                <div id="side-menu" class=" side-nav">
+                    <a class="nav-logo" href="index.html">
+                        <img class="light" aria-hidden="true" decoding="async" src="./images/logo.png" alt="compnay logo" height="200">
+                        <img class="dark" aria-hidden="true" decoding="async" src="./images/logo-dark.png" alt="compnay logo" height="200">
+                    </a>
+                    <ul id="on-top" class="navbar-links">
+                        <li class="nav-li"><a id="active-menu" href="index.html">Home</a></li>
+                        <li class="nav-li"><a class="link" href="about.html">About</a></li>
+                        <li class="nav-li"><a class="link" href="service.html">Services</a></li>
+                        <!-- <li class="nav-li"><a class="link" href="html/portfolio.html">Portfolio</a></li> -->
+                        <li class="nav-li"><a class="link" href="testimonials.html">Testimonials</a></li>
+                        <li class="nav-li"><a class="link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <button class="dark-mode-button top-dark-mode-button" aria-label="dark mode toggle">
+                    <img class="moon" aria-hidden="true" src="./images/moon.svg" alt="" width="24" height="24">
+                    <img class="sun" aria-hidden="true" src="./images/sun.svg" alt="" width="24" height="24">
+                </button>
+            </div>
+        </nav>
+    </header>
+        
+    <main id="main">
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+        <section id="hero">
+            <div class="hero-content">
+                <div class="heroText">
+                    <h1 id="home-h">Professional Painting Services in West Lafayette, Indiana</h1>
+                    <p>
+                        McCracken Painting has been delivering top-notch painting services in West Lafayette, Indiana for over 25 years. We specialize in interior and exterior painting, commercial painting, and more to give your property a fresh look.
+                    </p>
+                    <div class="buttons">
+                        <a class="button-solid" href="about.html">About Us</a>
+                        <a class="call-now" href="tel:555-213-9120">
+                            <img class="light" decoding="async" src="./images/phone.svg" alt="" aria-hidden="true" width="21" height="21">
+                            <img class="dark" decoding="async" src="./images/phone-dark.svg" alt="" aria-hidden="true" width="21" height="21">
+                            <div class="group">
+                                <span class="text">Call Now</span>
+                                <span class="number">(765) 430-8596</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- ============================================ -->
+        <!--                  Services                    -->
+        <!-- ============================================ -->
+        <section id="services" class="section">
+            <div class="service">
+                <picture class="image-box">
+                    <source media="(max-width: 600px)" srcset="./images/banner.jpg">
+                    <source media="(min-width: 601px)" srcset="./images/banner.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="./images/banner.jpg" alt="Innovative Solutions" width="400" height="662">
+                </picture>
+                <h2>Residential <span> Painting Services</span></h2>
+                <p>
+                    Transform your home with our comprehensive interior and exterior painting services. We handle every detail to ensure a stunning finish.
+                </p>
+            </div>
+            <div class="service">
+                <picture class="image-box">
+                    <source media="(max-width: 600px)" srcset="./images/interior-m.jpg">
+                    <source media="(min-width: 601px)" srcset="./images/interior.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="./images/interior.jpg" alt="Innovative Solutions" width="400" height="662">
+                </picture>
+                <h2>Interior and Exterior <span> Painting Services</span></h2>
+                <p>
+                    Our interior and exterior painting services are tailored to meet your needs, whether you need a fresh coat of paint for your home’s interior or exterior.
+                </p>
+            </div>
+            <div class="service">
+                <picture class="image-box">
+                    <source media="(max-width: 600px)" srcset="./images/commercial-m.jpg">
+                    <source media="(min-width: 601px)" srcset="./images/commercial.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="./images/commercial.jpg" alt="Innovative Solutions" width="400" height="662">
+                </picture>
+                <h2>Commercial <span> Painting Services</span></h2>
+                <p>
+                    Our commercial painting experts deliver high-quality results for your business, focusing on efficiency and minimizing disruptions to your operations.
+                </p>
+            </div>
+        </section>
+    
+        <!-- ============================================ -->
+        <!--                   Info                      -->
+        <!-- ============================================ -->
+        <!-- Add About content here if required -->
+
+    <section id="info" class="section">
+        <h2>Excellence In Quality Work</h2>
+        <div class="about-cont">
+            <div class="about-info">
+                <h3>25 Years of Experience</h3>
+                <p>
+                    McCracken Painting has been serving the West Lafayette, Indiana community for over 25 years. Our extensive experience in the painting industry ensures that each project we take on is completed to the highest standards.
+                </p>
+            </div>
+            <div class="about-info">
+                <h3>Customer Satisfaction</h3>
+                <p>
+                    We prioritize customer satisfaction by focusing on quality, attention to detail, and professionalism. Our team is dedicated to exceeding customer expectations in every project we undertake.
+                </p>
+            </div>
+            <div class="about-info">
+                <h3>Certified Professionals</h3>
+                <p>
+                    Our team consists of certified professionals who are skilled in various painting techniques. We stay updated with the latest trends and methods to provide innovative solutions for your painting needs.
+                </p>
+            </div>
+            <div class="about-info">
+                <h3>Eco-Friendly Approach</h3>
+                <p>
+                    We care about the environment and use eco-friendly paints and materials whenever possible. Our commitment to sustainability ensures that your painting project has a minimal impact on the environment.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+        <!--          Extra Content For Ranking           -->
+        <!-- ============================================ -->
+
+        <section id="sidebyside-reverse">
+            <div class="container">
+                <div class="content">
+                    <h2 class="title">Transform Your Home with Professional Painting</h2>
+                    <p>
+                        At McCracken Painting, we believe that a fresh coat of paint can make all the difference. With over 25 years of experience in the industry, our team provides expert painting services that transform your home's interiors and exteriors. We specialize in a wide range of painting solutions tailored to your specific needs, whether it's refreshing a single room or giving your entire home a new look.
+                    </p>
+                    <p>
+                        Ready to enhance your living space? Schedule a consultation with us to discuss how our professional painters can bring your vision to life. Our services include everything from surface preparation to final touch-ups, ensuring a flawless finish. We pride ourselves on using high-quality, eco-friendly paints that offer long-lasting results, protecting your home while adding aesthetic value.
+                    </p>
+                    <p>
+                        Choose McCracken Painting for a seamless and stress-free painting experience. We understand the importance of your home and are committed to delivering exceptional results on time and within budget. With our expertise, you can expect a personalized approach that caters to your unique style and preferences.
+                    </p>
+                </div>
+                <picture class="image-box">
+                    <source media="(max-width: 600px)" srcset="./images/drywall-m.jpg">
+                    <source media="(min-width: 601px)" srcset="./images/drywall.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="./images/drywall.jpg" alt="Drywall Paint" width="400" height="662">
+                </picture>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--             Final Call to Action             -->
+        <!-- ============================================ -->
+
+        <section id="cta">
+            <div class="cta-cont">
+            <div class="container">
+                <h2 class="title">Revitalize Your Home with a Stunning New Look</h2>
+                <p>
+                    Let McCracken Painting give your home a fresh start with our expert painting services. From vibrant interiors to durable exteriors, we bring your ideas to life with professional craftsmanship and superior results. Contact us now for a free estimate and start your home's transformation today.
+                </p>
+                <a href="contact.html" class="button-solid">Get an Estimate Now</a>
+            </div>
+        </div>
+            <picture>
+                <source media="(max-width: 600px)" srcset="./images/cta-m.jpg">
+                <source media="(min-width: 601px)" srcset="./images/cta.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="./images/cta.jpg" alt="House Painting Call to Action" width="1920" height="1280">
+            </picture>
+        </section>
+        
+    </main>
+
+    </main>
+
+     <!-- ============================================ -->
+    <!--                     FOOTER                   -->
+    <!-- ============================================ -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="right-section">
+                <div class="lists">
+                    <ul>
+                        <li><h2>Information</h2></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <ul>
+                        <li><h2>Services</h2></li>
+                        <li>Residential Painting</li>
+                        <li>Commercial Painting</li>
+                        <li>Interior Painting</li>
+                        <li>Exterior Painting</li>
+                        <li>Color Consultation</li>
+                        <li>Decorative Finishes</li>
+                    </ul>
+                    <ul>
+                        <li><h2>Contact</h2></li>
+                        <li><a href="contact.html">Lafayette, IN 47901
+                        </a></li>
+                        <li><a href="tel:765-430-8596">T: (765) 430-8596</a></li>
+                        <li><a href="mailto:paintingmccracken@gmail.com">paintingmccracken@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="credit">
+            <span>Designed and Hand Coded by</span>
+            <a href="https://oceansideweb.design/" target="_blank" rel="noopener">Oceanside Web Design</a>
+            <span class="copyright"> Copyright 2024 - Present</span></div>
+    </footer>
+
+    <script>
+        var ba = ["MSIE","Trident","Edge"];
+        var b, ua = navigator.userAgent;
+        for(var i=0; i < ba.length; i++){
+            if( ua.indexOf(ba[i]) > -1 ){
+                b = ba[i];
+                break;
+            }
+        }
+        if(b == "MSIE" || b == "Trident" || b == "Edge"){
+            b = "Internet Explorer";
+            alert("You are using the " + b + " browser and this browser is incompatible with this website and many others.  Please open this page in a different browser, either Chrome or Firefox.  Thank you!");
+        }
+    </script>
+
+    <script defer src="./app.js"></script>
+</body>
+</html>
