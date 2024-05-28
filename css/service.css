@@ -184,8 +184,9 @@
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #services-content .image {
-    max-width: 25em;
+    min-width: 25em;
     display: block;
+    margin-left: 8em;
   }
   #services-content .image img {
     position: absolute;
