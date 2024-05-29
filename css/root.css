@@ -741,7 +741,7 @@
     display: block;
     height: 0.11111111em;
     width: 5.38888889em;
-    background: var(--primary);
+    background: #fff;
     opacity: 1;
     bottom: -0.88888889em;
     left: 0;
@@ -766,7 +766,7 @@
     font-size: 1em;
   }
   #footer .credit a {
-    color: var(--primary);
+    color: #fff;
     text-decoration: none;
     font-size: 1em;
   }
