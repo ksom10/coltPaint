@@ -121,7 +121,7 @@
     padding-top: 1em;
   }
   #form #contact .input-group ::placeholder {
-    color: #d4d4d4;
+    color: #000;
     font-family: "Roboto", sans-serif;
   }
   #form #contact .button-solid {
